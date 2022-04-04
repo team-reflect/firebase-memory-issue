@@ -1,0 +1,27 @@
+{
+  "name": "firebase-memory-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ocavue <ocavue@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "setup-data": "bash scripts/setup.sh",
+    "build": "next build && next export -o dist",
+    "deploy": "yarn build && vercel --prod dist",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "@grpc/proto-loader": "0.6.1",
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "firebase": "^9.6.10",
+    "firebase-admin": "^10.0.2",
+    "lodash-es": "^4.17.21",
+    "next": "^12.1.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
