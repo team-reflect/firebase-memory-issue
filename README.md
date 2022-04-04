@@ -10,6 +10,9 @@ We've found that Firebase is keep crashing on mobile safari because of out of me
 
 On my iPhone Xr (with 3GB of memory), this webpage will crash after loading about 750 documents, which is about 30MB of raw data. The browser memory usage is about 1.6GB right before the crashing.
 
+<img width="999" alt="image" src="https://user-images.githubusercontent.com/24715727/161531926-109f82e5-7f4d-4d66-a55a-558da5a78419.png">
+
+
 ## Steup locally
 
 You can also run this repo locally.
